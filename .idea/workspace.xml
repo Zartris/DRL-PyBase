@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7e1329e-7980-4159-b029-3d761113f50a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W3t7VaFklDdiyGSN0dYx5vHcam" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\learning\DRL-PyBase\models" />
+      <recent name="D:\dev\learning\DRL-PyBase\replay_buffers" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7e1329e-7980-4159-b029-3d761113f50a" name="Default Changelist" comment="" />
+      <created>1578389938453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578389938453</updated>
+      <workItem from="1578389948289" duration="14367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1725" y="540" key="#com.intellij.ide.util.MemberChooser" timestamp="1578401830109">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="1725" y="540" key="#com.intellij.ide.util.MemberChooser/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578401830109" />
+    <state x="825" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578401643537">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="825" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578401643537" />
+    <state x="1273" y="40" width="1294" height="1407" key="dock-window-1" timestamp="1578399522500">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="1273" y="40" width="1294" height="1407" key="dock-window-1/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578399522500" />
+    <state x="336" y="472" width="607" height="536" key="find.popup" timestamp="1578405734716">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="336" y="472" width="607" height="536" key="find.popup/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578405734716" />
+  </component>
+</project>
