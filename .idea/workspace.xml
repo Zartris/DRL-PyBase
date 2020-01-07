@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7e1329e-7980-4159-b029-3d761113f50a" name="Default Changelist" comment="" />
+    <list default="true" id="a7e1329e-7980-4159-b029-3d761113f50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/value_based_agents/DQN_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/value_based_agents/Raindbow_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/QNetworks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/layers/noise_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/AgentBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/AgentBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/policy_based_agents/TD3_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/policy_based_agents/TD3_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay_buffers/RB_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/replay_buffers/RB_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay_buffers/prioritized_experience_replay.py" beforeDir="false" afterPath="$PROJECT_DIR$/replay_buffers/prioritized_experience_replay.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W3t7VaFklDdiyGSN0dYx5vHcam" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,11 +36,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Fevre\Code\Python\DRL-PyBase" />
       <recent name="D:\dev\learning\DRL-PyBase\models" />
       <recent name="D:\dev\learning\DRL-PyBase\replay_buffers" />
     </key>
@@ -61,18 +78,24 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1725" y="540" key="#com.intellij.ide.util.MemberChooser" timestamp="1578401830109">
-      <screen x="0" y="40" width="2560" height="1400" />
+    <state x="1294" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1578429752139">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1725" y="540" key="#com.intellij.ide.util.MemberChooser/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578401830109" />
+    <state x="1294" y="411" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578429752139" />
     <state x="825" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578401643537">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="825" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578401643537" />
-    <state x="1273" y="40" width="1294" height="1407" key="dock-window-1" timestamp="1578399522500">
-      <screen x="0" y="40" width="2560" height="1400" />
+    <state x="461" y="203" key="SettingsEditor" timestamp="1578425053098">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="461" y="203" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578425053098" />
+    <state x="955" y="40" width="972" height="1047" key="dock-window-1" timestamp="1578427450011">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1273" y="40" width="1294" height="1407" key="dock-window-1/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578399522500" />
+    <state x="955" y="40" width="972" height="1047" key="dock-window-1/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578427450011" />
     <state x="336" y="472" width="607" height="536" key="find.popup" timestamp="1578405734716">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>

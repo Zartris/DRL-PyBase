@@ -105,7 +105,16 @@ class PrioritizedReplayBuffer(RBBase):
             idxs[i] = index
             minibatch.append(data)
         is_weights /= is_weights.max()
-        return idxs, minibatch, is_weights
+        return idxs, self.transform_batch(minibatch), is_weights
+
+    def transform_batch(self, experiences):
+        states = torch.from_numpy(np.vstack([e[0] for e in experiences if e is not None])).float().to(self.device)
+        actions = torch.from_numpy(np.vstack([e[1] for e in experiences if e is not None])).long().to(self.device)
+        rewards = torch.from_numpy(np.vstack([e[2] for e in experiences if e is not None])).float().to(self.device)
+        next_states = torch.from_numpy(np.vstack([e[3] for e in experiences if e is not None])).float().to(self.device)
+        dones = torch.from_numpy(np.vstack([e[4] for e in experiences if e is not None]).astype(np.uint8)).float().to(
+            self.device)
+        return states, actions, rewards, next_states, dones
 
     def add(self, state, action, reward, next_state, done, agent_idx=None, error=None):
         experience = self.experience(state, action, reward, next_state, done)

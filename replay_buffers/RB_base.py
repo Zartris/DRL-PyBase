@@ -23,6 +23,9 @@ class RBBase:
         np.random.seed(seed)
         torch.manual_seed(seed)
 
+    def get_batch_size(self) -> int:
+        return self.batch_size
+
     def is_full(self):
         raise NotImplementedError
 

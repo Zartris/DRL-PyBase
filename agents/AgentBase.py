@@ -50,6 +50,18 @@ class AgentBase:
         with open(str(Path(load_path, '%s.stats' % filename)), 'rb') as f:
             self.state_normalizer.load_state_dict(pickle.load(f))
 
+    def save_all(self):
+        """
+        This is to be overwritten
+        """
+        raise NotImplementedError
+
+    def load_all(self):
+        """
+        This is to be overwritten
+        """
+        raise NotImplementedError
+
     def eval_step(self, state):
         """
         This is to be overwritten
@@ -93,7 +105,15 @@ class AgentBase:
         }
 
     @staticmethod
-    def soft_update(local_model, target_model, tau):
+    def update_target_model(local_model: nn.Module, target_model: nn.Module):
+        """ Hard update model parameters.
+            Copying the current weights from local_model to the target_model.
+        """
+        for target_param, local_param in zip(target_model.parameters(), local_model.parameters()):
+            target_param.data.copy_(local_param.data)
+
+    @staticmethod
+    def soft_update(local_model: nn.Module, target_model: nn.Module, tau: float):
         """Soft update model parameters.
         θ_target = τ*θ_local + (1 - τ)*θ_target
         Params

@@ -30,7 +30,7 @@ class TD3Agent(AgentBase):
                  action_val_high: float,
                  action_val_low: float,
                  save_path: Path = None,
-                 state_normalizer=RescaleNormalizer(),
+                 state_normalizer=RescaleNormalizer(),  # Todo: implement this
                  log_level: int = 0,  # 0 Equal to log everything
                  seed: int = 0,
                  train_delay: int = 2,
