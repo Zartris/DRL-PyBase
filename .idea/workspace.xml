@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e1329e-7980-4159-b029-3d761113f50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/value_based_agents/DQN_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/value_based_agents/Raindbow_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/QNetworks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/layers/noise_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/agent/AgentBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/agent/TD3_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/model/twin_ac_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/common/running_mean_std.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/normalizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TD3/utils/torch_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DRL-PyBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DRL-PyBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/AgentBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/AgentBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/policy_based_agents/TD3_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/policy_based_agents/TD3_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replay_buffers/RB_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/replay_buffers/RB_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replay_buffers/prioritized_experience_replay.py" beforeDir="false" afterPath="$PROJECT_DIR$/replay_buffers/prioritized_experience_replay.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +43,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TD3/model" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\learning\DRL-PyBase\TD3\model" />
+      <recent name="D:\dev\learning\DRL-PyBase\TD3" />
+      <recent name="D:\dev\learning\DRL-PyBase\TD3\agent" />
       <recent name="C:\Fevre\Code\Python\DRL-PyBase" />
       <recent name="D:\dev\learning\DRL-PyBase\models" />
-      <recent name="D:\dev\learning\DRL-PyBase\replay_buffers" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -87,9 +94,10 @@
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="825" y="80" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.730.1920.1040/2560.40.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578401643537" />
-    <state x="461" y="203" key="SettingsEditor" timestamp="1578425053098">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state x="615" y="299" key="SettingsEditor" timestamp="1578665363067">
+      <screen x="0" y="40" width="2560" height="1400" />
     </state>
+    <state x="615" y="299" key="SettingsEditor/-1920.619.1920.1040/2560.0.2560.1400/0.40.2560.1400@0.40.2560.1400" timestamp="1578665363067" />
     <state x="461" y="203" key="SettingsEditor/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1578425053098" />
     <state x="955" y="40" width="972" height="1047" key="dock-window-1" timestamp="1578427450011">
       <screen x="0" y="40" width="1920" height="1040" />
